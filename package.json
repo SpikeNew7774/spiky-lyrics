@@ -1,0 +1,22 @@
+{
+  "name": "spicy-lyrics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "spicetify-creator",
+    "build-local": "spicetify-creator --out=dist --minify",
+    "watch": "spicetify-creator --watch"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "spicetify-creator": "^1.0.17"
+  },
+  "author": "Spikerko",
+  "dependencies": {
+    "@spikerko/web-modules": "npm:@jsr/spikerko__web-modules@^1.0.3",
+    "gsap": "^3.12.5",
+    "spcr-settings": "^1.3.1"
+  }
+}
